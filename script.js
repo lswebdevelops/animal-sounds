@@ -13,55 +13,101 @@ const roosterImg = document.querySelector('#animal10');
 const sheepImg = document.querySelector('#animal11');
 const turkeyImg = document.querySelector('#animal12');
 let currentAudio = null;
-
+let catSound;
 catImg.addEventListener('click', () => {
+  if (currentAudio) {
+    currentAudio.pause();
+    currentAudio.currentTime = 0;
+  }
+
+  // Play word
+  currentAudio = new Audio('sounds/words/catWord.ogg');
+
+  currentAudio.play();
+
+  // Play  sound after a delay of 2 seconds
+  setTimeout(() => {
+   
+     catSound = new Audio('sounds/catSound.mp3');
+    catSound.play();
+  }, 1000);
+
+  console.log('cat');
+});
+
+chickenImg.addEventListener('click', () => {
     if (currentAudio) {
       currentAudio.pause();
       currentAudio.currentTime = 0;
     }
-    currentAudio = new Audio('sounds/catSound.mp3');
-    currentAudio.play();
-    console.log('cat');
-  });
- 
-  chickenImg.addEventListener('click', () => {
-    if (currentAudio) {
-      currentAudio.pause();
-      currentAudio.currentTime = 0;
-    }
-    currentAudio = new Audio('sounds/chickenSound.mp3');
-    currentAudio.play();
-    console.log('chicken');
+     // Play word
+  currentAudio = new Audio('sounds/words/chickenWord.ogg');
+
+  currentAudio.play();
+
+  // Play  sound after a delay of 2 seconds
+  setTimeout(() => {
+   
+    let catSound = new Audio('sounds/chickenSound.mp3');
+    catSound.play();
+  }, 10);
+
   });
 
-  cowImg.addEventListener('click', () => {
+cowImg.addEventListener('click', () => {
     if (currentAudio) {
       currentAudio.pause();
       currentAudio.currentTime = 0;
     }
-    currentAudio = new Audio('sounds/cowSound.mp3');
-    currentAudio.play();
-    console.log('cow');
+     // Play word
+  currentAudio = new Audio('sounds/words/cowWord.ogg');
+
+  currentAudio.play();
+
+  // Play  sound after a delay of 2 seconds
+  setTimeout(() => {
+   
+    let cowImg = new Audio('sounds/cowSound.mp3');
+    cowImg.play();
+  }, 1000);
+
   });
 
-  dogImg.addEventListener('click', () => {
+dogImg.addEventListener('click', () => {
     if (currentAudio) {
       currentAudio.pause();
       currentAudio.currentTime = 0;
     }
-    currentAudio = new Audio('sounds/dogSound.mp3');
-    currentAudio.play();
-    console.log('dog');
-  });
+     // Play word
+  currentAudio = new Audio('sounds/words/dogWord.ogg');
 
-  duckImg.addEventListener('click', () => {
+  currentAudio.play();
+
+  // Play  sound after a delay of 2 seconds
+  setTimeout(() => {
+   
+    let dogImg = new Audio('sounds/dogSound.mp3');
+    dogImg.play();
+  }, 1000);
+
+  });
+duckImg.addEventListener('click', () => {
     if (currentAudio) {
       currentAudio.pause();
       currentAudio.currentTime = 0;
     }
-    currentAudio = new Audio('sounds/duckSound.mp3');
-    currentAudio.play();
-    console.log('duck');
+     // Play word
+  currentAudio = new Audio('sounds/words/duckWord.ogg');
+
+  currentAudio.play();
+
+  // Play  sound after a delay of 2 seconds
+  setTimeout(() => {
+   
+    let duckImg = new Audio('sounds/duckSound.mp3');
+    duckImg.play();
+  }, 1000);
+
   });
 
   goatImg.addEventListener('click', () => {
@@ -69,19 +115,38 @@ catImg.addEventListener('click', () => {
       currentAudio.pause();
       currentAudio.currentTime = 0;
     }
-    currentAudio = new Audio('sounds/goatSound.mp3');
-    currentAudio.play();
-    console.log('goat');
+     // Play word
+  currentAudio = new Audio('sounds/words/goatWord.ogg');
+
+  currentAudio.play();
+
+  // Play  sound after a delay of 2 seconds
+  setTimeout(() => {
+   
+    let goatImg = new Audio('sounds/goatSound.mp3');
+    goatImg.play();
+  }, 1000);
+
   });
+
 
   gooseImg.addEventListener('click', () => {
     if (currentAudio) {
       currentAudio.pause();
       currentAudio.currentTime = 0;
     }
-    currentAudio = new Audio('sounds/gooseSound.mp3');
-    currentAudio.play();
-    console.log('goose');
+     // Play word
+  currentAudio = new Audio('sounds/words/gooseWord.ogg');
+
+  currentAudio.play();
+
+  // Play  sound after a delay of 2 seconds
+  setTimeout(() => {
+   
+    let gooseImg = new Audio('sounds/gooseSound.mp3');
+    gooseImg.play();
+  }, 1000);
+
   });
 
   horseImg.addEventListener('click', () => {
@@ -89,9 +154,18 @@ catImg.addEventListener('click', () => {
       currentAudio.pause();
       currentAudio.currentTime = 0;
     }
-    currentAudio = new Audio('sounds/horseSound.mp3');
-    currentAudio.play();
-    console.log('horse');
+     // Play word
+  currentAudio = new Audio('sounds/words/horseWord.ogg');
+
+  currentAudio.play();
+
+  // Play  sound after a delay of 2 seconds
+  setTimeout(() => {
+   
+    let horseImg = new Audio('sounds/horseSound.mp3');
+    horseImg.play();
+  }, 1000);
+
   });
 
   pigImg.addEventListener('click', () => {
@@ -99,38 +173,90 @@ catImg.addEventListener('click', () => {
       currentAudio.pause();
       currentAudio.currentTime = 0;
     }
-    currentAudio = new Audio('sounds/pigSound.mp3');
-    currentAudio.play();
-    console.log('pig');
+     // Play word
+  currentAudio = new Audio('sounds/words/pigWord.ogg');
+
+  currentAudio.play();
+
+  // Play  sound after a delay of 2 seconds
+  setTimeout(() => {
+   
+    let pigImg = new Audio('sounds/pigSound.mp3');
+    pigImg.play();
+  }, 1000);
+
   });
-  
+
   roosterImg.addEventListener('click', () => {
     if (currentAudio) {
-        currentAudio.pause();
-        currentAudio.currentTime = 0;
-      }
-    currentAudio = new Audio('sounds/roosterSound.mp3');
-    currentAudio.play();
-    console.log('rooster');
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+    }
+     // Play word
+  currentAudio = new Audio('sounds/words/roosterWord.ogg');
+
+  currentAudio.play();
+
+  // Play  sound after a delay of 2 seconds
+  setTimeout(() => {
+   
+    let roosterImg = new Audio('sounds/roosterSound.mp3');
+    roosterImg.play();
+  }, 1000);
+
   });
-  
+
   sheepImg.addEventListener('click', () => {
     if (currentAudio) {
-        currentAudio.pause();
-        currentAudio.currentTime = 0;
-      }
-    currentAudio = new Audio('sounds/sheepSound.mp3');
-    currentAudio.play();
-    console.log('sheep');
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+    }
+     // Play word
+  currentAudio = new Audio('sounds/words/sheepWord.ogg');
+
+  currentAudio.play();
+
+  // Play  sound after a delay of 2 seconds
+  setTimeout(() => {
+   
+    let sheepImg = new Audio('sounds/sheepSound.mp3');
+    sheepImg.play();
+  }, 1000);
+
   });
-  
+
+
   turkeyImg.addEventListener('click', () => {
     if (currentAudio) {
-        currentAudio.pause();
-        currentAudio.currentTime = 0;
-      }
-    currentAudio = new Audio('sounds/turkeySound.mp3');
-    currentAudio.play();
-    console.log('turkey');
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+    }
+     // Play word
+  currentAudio = new Audio('sounds/words/turkeyWord.ogg');
+
+  currentAudio.play();
+
+  // Play  sound after a delay of 2 seconds
+  setTimeout(() => {
+   
+    let turkeyImg = new Audio('sounds/turkeySound.mp3');
+    turkeyImg.play();
+  }, 1000);
+
   });
-});  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  // end of DOMContentLoaded
+});
