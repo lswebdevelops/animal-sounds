@@ -1,0 +1,32 @@
+*{
+    background-color: blanchedalmond;
+}
+
+#playButton, #nextButton{
+    min-width: 150px;
+    height: 50px;
+}
+#playButton{
+   border:none;
+}
+
+#nextButton{
+    
+   color: rgb(76, 58, 85);
+   border:none;
+
+}
+
+
+img {
+    height: 150px;
+    border: solid #333 4px;
+  }
+  #restartButton{
+    background-color: red;
+    font-weight: 600;
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
