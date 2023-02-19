@@ -1,5 +1,6 @@
 *{
     background-color: blanchedalmond;
+    text-align: center;
 }
 
 #playButton, #nextButton{
@@ -8,11 +9,12 @@
 }
 #playButton{
    border:none;
+ color: green;
 }
 
 #nextButton{
     
-   color: rgb(76, 58, 85);
+   color: rgb(0, 100, 255);
    border:none;
 
 }
@@ -27,6 +29,12 @@ img {
     font-weight: 600;
     color: white;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .buttons{
+    padding: 13px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
   }
