@@ -14,27 +14,29 @@
 
 #nextButton{
     
-   color: rgb(0, 100, 255);
+   color: rgb(0, 0, 0);
    border:none;
 
 }
 
 
-img {
-    height: 150px;
-    border: solid #333 4px;
-  }
-  #restartButton{
-    background-color: red;
-    font-weight: 600;
-    color: white;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-  }
 
   .buttons{
     padding: 13px 0 0 0;
     display: flex;
     flex-wrap: wrap;
+  }
+  .animalImgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0 0 0;
+  }
+  .animalImgContainer img{
+    margin: 0 10px 10px 0;
+    width: 150px;
+    height: 150px;
+    border: solid #333 1px;
+    /* when the image is too big, adjust */
+    object-fit: cover;
   }

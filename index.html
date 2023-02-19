@@ -8,25 +8,67 @@
     <title>Animal Sounds</title>
   </head>
   <body>
-    <h1>Animal Sounds Game</h1>
-      <!-- add an ID to each image and add event listeners to them -->
-  <img id="animal1" src="images/horse.jpg" onclick="checkAnswer('animal1')">
-  <img id="animal2" src="images/pig.jpg" onclick="checkAnswer('animal2')">
-  <br>
-  <!-- add a new button element with an ID of "playButton" -->
-<div class="buttons">
+    <h1>Animal Sounds</h1>
+    <!-- add an ID to each image and add event listeners to them -->
+    <div class="animalImgContainer">
+    <div class="animal1">
+      <img id="animal1" src="images/cat.jpg" onclick="checkAnswer('animal1')">
+    </div>
+    <div class="animal2">
+      <img id="animal2" src="images/chicken.jpg" onclick="checkAnswer('animal2')">
+    </div>
+    <div class="animal3">
+      <img id="animal3" src="images/cow.jpg" onclick="checkAnswer('animal3')">
+    </div>
+    <div class="animal4">
+      <img id="animal4" src="images/dog.jpg" onclick="checkAnswer('animal4')">
+    </div>
+    <div class="animal5">
+      <img id="animal5" src="images/duck.jpg" onclick="checkAnswer('animal5')">
+    </div>
+    <div class="animal6">
+      <img id="animal6" src="images/goat.jpg" onclick="checkAnswer('animal6')">
+    </div>
+    <div class="animal7">
+      <img id="animal7" src="images/goose.jpg" onclick="checkAnswer('animal7')">
+    </div>
+    <div class="animal8">
+      <img id="animal8" src="images/horse.jpg" onclick="checkAnswer('animal8')">
+    </div>
+    <div class="animal9">
+      <img id="animal9" src="images/pig.jpg" onclick="checkAnswer('animal9')">
+    </div>
+    <div class="animal10">
+      <img id="animal10" src="images/rooster.jpg" onclick="checkAnswer('animal10')">
+    </div>
+    <div class="animal11">
+      <img id="animal11" src="images/sheep.jpg" onclick="checkAnswer('animal11')">
+    </div>
+    <div class="animal12">
+      <img id="animal12" src="images/turkey.jpg" onclick="checkAnswer('animal12')">
+    </div>
+    </div>
 
-  <button id="playButton"><i class="fa-sharp fa-solid fa-play fa-4x"></i></button>
-  <button id="nextButton" onclick=" nextButton()"><i class="fa-sharp fa-solid fa-forward-fast fa-4x"></i></button>
-  <button id="restartButton" onclick=" restartPage()">Restart</button>
+<br>
+<!-- add a new button element with an ID of "playButton" -->
+<div class="buttons">
+  <button id="nextButton" onclick="nextButton()"><i class="fa-sharp fa-solid fa-forward-fast fa-4x"></i></button>
 </div>
-  
-  <div id="result"></div>
-  <!-- add the audio elements for the sounds -->
-<audio id="audio1" src="sounds/horseSound.mp3"></audio>
-<audio id="audio2" src="sounds/pigSound.mp3"></audio>
-<audio id="audio3" src="sounds/catSound.mp3"></audio>
+
+<div id="result"></div>
+<!-- add the audio elements for the sounds -->
+<audio id="audio1" src="sounds/catSound.mp3"></audio>
+<audio id="audio2" src="sounds/chickenSound.mp3"></audio>
+<audio id="audio3" src="sounds/cowSound.mp3"></audio>
 <audio id="audio4" src="sounds/dogSound.mp3"></audio>
+<audio id="audio5" src="sounds/duckSound.mp3"></audio>
+<audio id="audio6" src="sounds/goatSound.mp3"></audio>
+<audio id="audio7" src="sounds/gooseSound.mp3"></audio>
+<audio id="audio8" src="sounds/horseSound.mp3"></audio>
+<audio id="audio9" src="sounds/pigSound.mp3"></audio>
+<audio id="audio10" src="sounds/roosterSound.mp3"></audio>
+<audio id="audio11" src="sounds/sheepSound.mp3"></audio>
+<audio id="audio12" src="sounds/turkeySound.mp3"></audio>
 
 </body>
 </html>
