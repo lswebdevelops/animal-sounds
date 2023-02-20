@@ -93,3 +93,8 @@ turkeyImg.addEventListener('click',()=>{
 
 
 });
+
+const nextBtn = document.querySelector('#nextBtn');
+nextBtn.addEventListener('click',()=>{
+  window.location.href = "colors.html";
+});

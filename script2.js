@@ -1,8 +1,7 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var audio = new Audio();
-    function myAudioFunction(letter) {
-       audio.pause()
-       audio = new Audio('sounds/'+letter+'.mp3');
-        audio.play();
-    }
+// Hide the URL when the page loads
+history.pushState({}, '', '');
+
+// Restore the URL when the page is refreshed
+window.addEventListener('beforeunload', function() {
+  history.replaceState({}, '', location.href);
 });
