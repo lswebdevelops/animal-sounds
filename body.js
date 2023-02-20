@@ -60,4 +60,51 @@ armImg.addEventListener('click', () => {
     playBodySound('arm');
 });
 
+const legImg = document.querySelector('.leg');
+legImg.addEventListener('click', () => {
+    playBodySound('leg');
+});
+const footImg = document.querySelector('.foot');
+footImg.addEventListener('click', () => {
+    playBodySound('foot');
+});
+const kneeImg = document.querySelector('.knee');
+kneeImg.addEventListener('click', () => {
+    playBodySound('knee');
+});
+const elbowImg = document.querySelector('.elbow');
+elbowImg.addEventListener('click', () => {
+    playBodySound('elbow');
+});
+const headImg = document.querySelector('.head');
+headImg.addEventListener('click', () => {
+    playBodySound('head');
+});
+const noseImg = document.querySelector('.nose');
+noseImg.addEventListener('click', () => {
+    playBodySound('nose');
+});
+const earImg = document.querySelector('.ear');
+earImg.addEventListener('click', () => {
+    playBodySound('ear');
+});
+const eyeImg = document.querySelector('.eye');
+eyeImg.addEventListener('click', () => {
+    playBodySound('eye');
+});
+const hairImg = document.querySelector('.hair');
+hairImg.addEventListener('click', () => {
+    playBodySound('hair');
+});
+const mouthImg = document.querySelector('.mouth');
+mouthImg.addEventListener('click', () => {
+    playBodySound('mouth');
+});
+const tongueImg = document.querySelector('.tongue');
+tongueImg.addEventListener('click', () => {
+    playBodySound('tongue');
+});
+
+
+
 });
