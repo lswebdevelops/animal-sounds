@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function() {
+
+
 const fingers = document.querySelector('.fingers');
 const arm = document.querySelector('.arm');
 const leg   = document.querySelector('.leg');
@@ -51,4 +54,10 @@ function playBodySound(part) {
 const fingerImg = document.querySelector('.finger');
 fingerImg.addEventListener('click', () => {
   playBodySound('finger');
+});
+const armImg = document.querySelector('.arm');
+armImg.addEventListener('click', () => {
+    playBodySound('arm');
+});
+
 });
