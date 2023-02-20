@@ -5,3 +5,9 @@ history.pushState({}, '', '');
 window.addEventListener('beforeunload', function() {
   history.replaceState({}, '', location.href);
 });
+
+
+const nextBtn = document.querySelector('#nextBtn');
+nextBtn.addEventListener('click',()=>{
+  window.location.href = "body.html";
+});
