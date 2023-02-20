@@ -98,3 +98,7 @@ const nextBtn = document.querySelector('#nextBtn');
 nextBtn.addEventListener('click',()=>{
   window.location.href = "colors.html";
 });
+const prevBtn = document.querySelector('#prevBtn');
+prevBtn.addEventListener('click',()=>{
+  window.location.href = "body.html";
+});

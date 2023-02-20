@@ -11,7 +11,12 @@ const nextBtn = document.querySelector('#nextBtn');
 nextBtn.addEventListener('click',()=>{
   window.location.href = "body.html";
 });
+const prevBtn = document.querySelector('#prevBtn');
+prevBtn.addEventListener('click',()=>{
 
+  window.location.href = "index.html";
+}
+);
 document.addEventListener("DOMContentLoaded", function() {
 
   const colorAudios ={

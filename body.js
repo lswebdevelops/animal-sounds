@@ -14,6 +14,7 @@ const eye = document.querySelector('.eye');
 const hair = document.querySelector('.hair');
 const mouth = document.querySelector('.mouth');
 const tongue = document.querySelector('.tongue');
+const belly = document.querySelector('.belly');
 
 
 const bodyAudios ={
@@ -30,6 +31,7 @@ const bodyAudios ={
     hair: new Audio('bodySounds/hair.ogg'),
     mouth: new Audio('bodySounds/mouth.ogg'),
     tongue: new Audio('bodySounds/tongue.ogg'),
+    belly: new Audio('bodySounds/belly.ogg'),
   }
 
 
@@ -105,6 +107,9 @@ tongueImg.addEventListener('click', () => {
     playBodySound('tongue');
 });
 
-
+const bellyImg = document.querySelector('.belly');
+bellyImg.addEventListener('click', () => {
+    playBodySound('belly');
+});
 
 });

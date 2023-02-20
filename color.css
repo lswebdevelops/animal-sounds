@@ -78,15 +78,17 @@ h1{
   }
 
 
-  #nextBtn{
+  #nextBtn, #prevBtn {
 	
-      
+	text-align: center;
 	color: rgb(128, 128, 128);
 	border:none;
   
  }
 .buttons{
- text-align: right;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 5px;	
 }
 
 .color-div, h1 {
