@@ -1,0 +1,28 @@
+*{
+  
+    box-sizing: border-box;
+      text-align: center;
+  }
+  h1{
+      padding: 20px;
+  }
+   .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+      
+   }
+ img{
+      
+      margin: 0 10px 10px 0;
+      width: 150px;
+      height: 150px;
+      border: solid #333 1px;
+      display: inline-block;
+        vertical-align: middle;
+      font-size: 20px;
+      line-height: 150px;
+      color: #fff;
+  }
