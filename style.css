@@ -3,12 +3,6 @@
     text-align: center;
 }
 
-#nextBtn{
-    
-   color: rgb(128, 128, 128);
-   border:none;
-
-}
 
 
   .animalImgContainer{
@@ -29,3 +23,12 @@
     border: solid #333 5px;
     opacity: 0.8;
   }
+  #nextBtn{
+      
+     color: rgb(128, 128, 128);
+     border:none;
+   
+  }
+.buttons{
+  text-align: right;
+}
